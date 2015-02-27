@@ -1,0 +1,38 @@
+orb_porb_day:  1.70016723662    # Orbital Period (day)
+orb_t0_sec:    181827904.948 # Time of periastron passage (sec), Mission Time 
+orb_eccen:     4.2e-4           # Eccetricity (no-dimension)
+orb_asini_sec: 13.1831          # Asini (light second) a * sin(i) / c (s)
+orb_w_deg:     96.0             # Longitude Periastron (degree)
+# For the Suzaku data of Her X-1 
+# ObsID =　100035010
+# Date  = 2005-10-05T15:28:52
+# ---------------------------
+# Reference 
+# R.Staubert et al., 2009, A&A,883
+# Updating the orbital ephemeris of Her X-1:
+# rate of decay and eccentricity of the orbit
+# http://arxiv.org/pdf/0904.2307
+# 
+# Eq.(5)
+#   P_orb (t) = P_orb (0) + Pdot_orb (0) * (t-T_pi/2 (0) )
+# Eq.(6)
+#   T_pi/2 (t) = T_pi/2(0) + n P_orb (0) + 0.5 * n^2 * P_orb(0) * Pdot_orb(0)
+#
+# Tπ/2(0) [MJD (TDB)]	= 46359.871940(6) 
+# Porb (0)	[d]			= 1.700167590(2) 
+# Pdot orb (0)	[d/d]	= (−4.85 ± 0.13)e−11 
+# a sin i [lt-s]		= 13.1831(4)
+# eccentricity e		= (4.2 ± 0.8)e−4 
+# omega [deg]	        = 96.0 ± 10.0
+#
+# ~/work/suzaku/herx1/staubert/ana/st2_binary/calc_ephemeris.py
+#
+# --- 2005 ---
+# Porb    = 1.70016723662 (day)
+# Tpihalf = 53646.7894734 (MJD)
+# Tpihalf (Mission Time) = 181681010.501760 (s)
+#
+# --- 2006 --- 
+# Porb    = 1.70016722804 (day)
+# Tpihalf = 53823.6068655 (MJD)
+# ---------------------------

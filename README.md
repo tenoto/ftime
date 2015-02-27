@@ -10,3 +10,7 @@ faddphase.py
 	-p 0.033600912903 
 	-d 4.20507696e-13 
 	-e 227701951.819787 
+
+fbinarycorr.py
+- correct binary motion.
+- example: herx1_ephem.yaml
